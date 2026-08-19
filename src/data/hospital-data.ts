@@ -19,6 +19,7 @@ export interface ServiceItem {
     | "Activity"
     | "Baby"
     | "HeartPulse"
+    | "Brain"
     | "ShieldAlert"
     | "Scissors"
     | "Pill";
@@ -108,6 +109,15 @@ export const servicesData: ServiceItem[] = [
     details:
       "Gentle, specialized medical care for infants, children, and adolescents, covering common childhood illnesses and routine developmental checks.",
   },
+  {
+  id: "psychology-mental-health",
+  title: "Psychology & Mental Health",
+  description:
+    "Assessment, diagnosis, counselling, therapy, and research-informed support for emotional, cognitive, behavioural, social, and interpersonal wellbeing.",
+  iconName: "Brain",
+  details:
+    "Comprehensive mental health support for individuals experiencing emotional, psychological, behavioural, or interpersonal challenges, with a focus on assessment, counselling, therapy, wellbeing, and ongoing support.",
+},
   {
     id: "emergency-care",
     title: "Emergency Care",
