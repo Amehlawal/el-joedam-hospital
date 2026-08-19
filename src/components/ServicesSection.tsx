@@ -143,7 +143,7 @@ export const ServicesSection: React.FC = () => {
         </div>
 
         {/* Editability & Verification Notice */}
-        <div className="mt-12 p-4 rounded-xl bg-blue-50/70 border border-blue-200/60 max-w-2xl mx-auto flex items-start gap-3 text-xs text-slate-600">
+        {/* <div className="mt-12 p-4 rounded-xl bg-blue-50/70 border border-blue-200/60 max-w-2xl mx-auto flex items-start gap-3 text-xs text-slate-600">
           <Info className="w-4 h-4 text-hospital-blue-700 flex-shrink-0 mt-0.5" />
           <p>
             <strong className="text-slate-800">Hospital Staff Note:</strong> All
@@ -151,7 +151,7 @@ export const ServicesSection: React.FC = () => {
             data file (<code className="text-hospital-blue-800">src/data/hospital-data.ts</code>)
             for effortless updates as the hospital introduces new departments.
           </p>
-        </div>
+        </div> */}
       </div>
 
       {/* Modal / Dialog for Detailed Service Inspection */}
