@@ -14,10 +14,6 @@ export interface ServiceItem {
   title: string;
   description: string;
   details?: string;
-  psychologyDetails?: {
-    workplaces: string[];
-    roles: string[];
-  };
   iconName:
     | "Stethoscope"
     | "FlaskConical"
@@ -121,28 +117,6 @@ export const servicesData: ServiceItem[] = [
   iconName: "Brain",
   details:
     "Psychologists assess and diagnose behavioural, emotional and cognitive disorders, counsel clients, provide therapy, conduct research and apply theory relating to behaviour and mental processes. Psychologists help clients work toward the maintenance and enhancement of psychological, physical, intellectual, emotional, social and interpersonal functioning.",
-  psychologyDetails: {
-    workplaces: [
-      "Private practice",
-      "Clinics",
-      "Hospitals",
-      "Mental health facilities",
-      "Rehabilitation centres",
-      "Community service organizations",
-      "Schools and universities",
-      "Government and private research agencies",
-      "Correctional facilities",
-      "Businesses",
-    ],
-    roles: [
-      "Clinical Psychologist",
-      "Neuropsychologist",
-      "Psychological Associate",
-      "Psychologist",
-      "Registered Psychologist",
-      "Research Psychologist",
-    ],
-  },
 },
   {
     id: "emergency-care",

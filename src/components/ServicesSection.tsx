@@ -183,37 +183,13 @@ export const ServicesSection: React.FC = () => {
             <div className="py-4 flex flex-col gap-5 max-h-[60vh] overflow-y-auto pr-1">
               <div className="flex flex-col gap-3">
                 <h4 className="text-sm font-bold uppercase tracking-wide text-hospital-blue-800">
-                  Psychologists
+                  Service Overview
                 </h4>
                 <p className="text-slate-700 text-sm leading-6">
                   {selectedService.details || selectedService.description}
                 </p>
               </div>
 
-              {selectedService.psychologyDetails && (
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-                  <div className="flex flex-col gap-2">
-                    <h4 className="text-sm font-bold text-slate-900">
-                      Where Psychologists Work
-                    </h4>
-                    <ul className="list-disc pl-5 flex flex-col gap-1 text-sm leading-6 text-slate-600">
-                      {selectedService.psychologyDetails.workplaces.map((place) => (
-                        <li key={place}>{place}</li>
-                      ))}
-                    </ul>
-                  </div>
-                  <div className="flex flex-col gap-2">
-                    <h4 className="text-sm font-bold text-slate-900">
-                      Examples of Professional Roles
-                    </h4>
-                    <ul className="list-disc pl-5 flex flex-col gap-1 text-sm leading-6 text-slate-600">
-                      {selectedService.psychologyDetails.roles.map((role) => (
-                        <li key={role}>{role}</li>
-                      ))}
-                    </ul>
-                  </div>
-                </div>
-              )}
 
               <div className="p-3 bg-slate-50 rounded-lg text-xs leading-5 text-slate-600 border border-slate-100">
                 <span className="font-semibold text-slate-800 block mb-1">
