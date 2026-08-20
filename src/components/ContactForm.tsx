@@ -176,7 +176,7 @@ export const ContactForm: React.FC = () => {
         <p className="text-[11px] text-slate-500 text-center pt-1">
           For urgent medical attention, please call our direct hospital line:{" "}
           <a href="tel:08165221928" className="font-semibold text-hospital-blue-700 underline">
-            0816 522 1928
+            (+234) 816-522-1928
           </a>
         </p>
       </form>

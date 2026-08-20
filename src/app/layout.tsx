@@ -68,7 +68,7 @@ export default function RootLayout({
     description: siteConfig.description,
     url: "https://el-joedam-hospital.com",
     logo: "https://el-joedam-hospital.com/hospital-logo.svg",
-    telephone: siteConfig.contact.phone,
+    telephone: siteConfig.contact.phoneIntl,
     email: siteConfig.contact.email,
     address: {
       "@type": "PostalAddress",
@@ -93,7 +93,7 @@ export default function RootLayout({
   };
 
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="en" className="scroll-smooth bg-white">
       <head>
         <script
           type="application/ld+json"

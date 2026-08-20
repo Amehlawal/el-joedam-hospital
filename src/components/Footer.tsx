@@ -73,7 +73,7 @@ export const Footer: React.FC = () => {
                   href={siteConfig.contact.phoneTel}
                   className="hover:text-white font-semibold transition-colors"
                 >
-                  {siteConfig.contact.phone}
+                  {siteConfig.contact.phoneDisplay}
                 </a>
               </li>
 

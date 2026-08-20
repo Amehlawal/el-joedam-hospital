@@ -13,6 +13,7 @@ import {
   ShieldAlert,
   Scissors,
   Pill,
+  Brain,
   ArrowRight,
   Phone,
   Sparkles,
@@ -41,6 +42,8 @@ export const ServicesSection: React.FC = () => {
         return <Scissors className={`${iconClass} text-hospital-blue-700`} />;
       case "Pill":
         return <Pill className={`${iconClass} text-hospital-blue-700`} />;
+      case "Brain":
+        return <Brain className={`${iconClass} text-hospital-blue-700`} />;
       default:
         return <Stethoscope className={`${iconClass} text-hospital-blue-700`} />;
     }
@@ -177,12 +180,18 @@ export const ServicesSection: React.FC = () => {
               </button>
             </div>
 
-            <div className="py-4 space-y-3">
-              <p className="text-slate-700 text-sm leading-relaxed">
-                {selectedService.details || selectedService.description}
-              </p>
+            <div className="py-4 flex flex-col gap-5 max-h-[60vh] overflow-y-auto pr-1">
+              <div className="flex flex-col gap-3">
+                <h4 className="text-sm font-bold uppercase tracking-wide text-hospital-blue-800">
+                  Service Overview
+                </h4>
+                <p className="text-slate-700 text-sm leading-6">
+                  {selectedService.details || selectedService.description}
+                </p>
+              </div>
 
-              <div className="p-3 bg-slate-50 rounded-lg text-xs text-slate-600 border border-slate-100">
+
+              <div className="p-3 bg-slate-50 rounded-lg text-xs leading-5 text-slate-600 border border-slate-100">
                 <span className="font-semibold text-slate-800 block mb-1">
                   How to Access:
                 </span>

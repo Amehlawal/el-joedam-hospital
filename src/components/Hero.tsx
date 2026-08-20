@@ -3,8 +3,6 @@
 import React from "react";
 import { siteConfig } from "@/config/site";
 import {
-  Phone,
-  Navigation,
   ShieldCheck,
   Activity,
   HeartPulse,
@@ -75,29 +73,6 @@ export const Hero: React.FC = () => {
                   </p>
                 </div>
               </div>
-            </div>
-
-            {/* Key Action Buttons */}
-            <div className="pt-2 flex flex-col sm:flex-row items-stretch sm:items-center gap-3.5">
-              <a
-                href={siteConfig.contact.phoneTel}
-                className="inline-flex items-center justify-center gap-3 px-6 py-3.5 rounded-xl font-bold text-white bg-hospital-blue-800 hover:bg-hospital-blue-900 active:scale-[0.98] transition-all shadow-md shadow-hospital-blue-900/20 text-base group"
-              >
-                <div className="w-8 h-8 rounded-lg bg-hospital-red-600 flex items-center justify-center text-white shadow-xs group-hover:scale-110 transition-transform">
-                  <Phone className="w-4 h-4" />
-                </div>
-                <span>Call Us: {siteConfig.contact.phoneDisplay}</span>
-              </a>
-
-              <a
-                href={siteConfig.mapsUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2.5 px-6 py-3.5 rounded-xl font-bold text-slate-800 bg-white hover:bg-slate-50 active:scale-[0.98] border-2 border-slate-200 hover:border-hospital-blue-400 transition-all shadow-xs text-base"
-              >
-                <Navigation className="w-5 h-5 text-hospital-blue-700" />
-                <span>Get Directions</span>
-              </a>
             </div>
 
             {/* Trust Highlights List */}

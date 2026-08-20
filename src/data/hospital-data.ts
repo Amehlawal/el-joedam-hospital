@@ -13,6 +13,7 @@ export interface ServiceItem {
   id: string;
   title: string;
   description: string;
+  details?: string;
   iconName:
     | "Stethoscope"
     | "FlaskConical"
@@ -23,7 +24,6 @@ export interface ServiceItem {
     | "ShieldAlert"
     | "Scissors"
     | "Pill";
-  details?: string;
 }
 
 export interface WhyChooseUsItem {
@@ -116,7 +116,7 @@ export const servicesData: ServiceItem[] = [
     "Assessment, diagnosis, counselling, therapy, and research-informed support for emotional, cognitive, behavioural, social, and interpersonal wellbeing.",
   iconName: "Brain",
   details:
-    "Comprehensive mental health support for individuals experiencing emotional, psychological, behavioural, or interpersonal challenges, with a focus on assessment, counselling, therapy, wellbeing, and ongoing support.",
+    "Psychologists assess and diagnose behavioural, emotional and cognitive disorders, counsel clients, provide therapy, conduct research and apply theory relating to behaviour and mental processes. Psychologists help clients work toward the maintenance and enhancement of psychological, physical, intellectual, emotional, social and interpersonal functioning.",
 },
   {
     id: "emergency-care",
