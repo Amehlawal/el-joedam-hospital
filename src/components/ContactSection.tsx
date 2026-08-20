@@ -75,7 +75,7 @@ export const ContactSection: React.FC = () => {
                 href={siteConfig.contact.phoneTel}
                 className="text-lg font-extrabold text-hospital-blue-900 hover:text-hospital-blue-700 block transition-colors"
               >
-                {siteConfig.contact.phone}
+                {siteConfig.contact.phoneDisplay}
               </a>
             </div>
             <div className="pt-4 mt-4 border-t border-slate-100">

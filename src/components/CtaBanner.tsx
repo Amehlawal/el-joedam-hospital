@@ -35,7 +35,7 @@ export const CtaBanner: React.FC = () => {
               <div className="w-7 h-7 rounded-lg bg-hospital-red-600 text-white flex items-center justify-center">
                 <Phone className="w-4 h-4" />
               </div>
-              <span>Call {siteConfig.contact.phone}</span>
+              <span>Call {siteConfig.contact.phoneDisplay}</span>
             </a>
 
             <a

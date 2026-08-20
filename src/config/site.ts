@@ -14,8 +14,8 @@ export const siteConfig = {
   },
   contact: {
     phone: "08165221928",
-    phoneDisplay: "0816 522 1928",
-    phoneIntl: "+234 816 522 1928",
+    phoneDisplay: "(+234) 816-522-1928",
+    phoneIntl: "(+234) 816-522-1928",
     phoneTel: "tel:08165221928",
     email: "eljoedamclinic@gmail.com",
     emailMailto: "mailto:eljoedamclinic@gmail.com",
